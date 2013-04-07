@@ -18,17 +18,26 @@
     <body>
         <div class="container">
             <div class="hero-unit">
-                <h1>'Allo, 'Allo!</h1>
-                <p>You now have</p>
-                <ul>
-                    <li>Twitter Bootstrap</li>
-                    <li>HTML5 Boilerplate</li>
-                    <li>jQuery</li>
-                    <li>Backbone.js</li>
-                    <li>Underscore.js</li>
-                </ul>
-                <p>installed.</p>
-                <h3>Enjoy coding! - Yeoman</h3>
+                <h3><p class="text-center">Wilks Formula Calculator</p></h3>
+                <div class="row">     
+                    <div class="span12">         
+                        <form class="form-inline">
+                          <label class="radio">
+                            <input type="radio" name="optionsRadios" id="check_gender_male" value="female" checked>male
+                          </label>
+                          <label class="radio">
+                            <input type="radio" name="optionsRadios" id="check_gender_female" value="female">female
+                          </label>
+                        </form>
+                    </div> 
+                </div>
+                <form class="form-inline">
+                  <div class="controls">
+                    <button id="weight_inc"class="btn btn-primary" type="button">+</button>
+                    <input id="weight_text"class="input-mini" type="text">
+                    <button id="weight_dec" class="btn btn-primary" type="button">-</button>
+                  </div>
+                </form>
             </div>
         </div>
 
