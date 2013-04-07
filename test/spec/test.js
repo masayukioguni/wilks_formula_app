@@ -8,4 +8,9 @@
             });
         });
     });
+    describe("Application", function() {
+	  	it("should create a global variable for the namespace", function () {
+	    	expect(wilksFormulaApp).to.exist;
+	  	});
+	});
 })();

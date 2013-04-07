@@ -13,7 +13,14 @@
     <script src="lib/chai.js"></script>
     <script>var expect = chai.expect</script>
 
+    <!-- build:js scripts/vendor.js -->
+    <script src="components/jquery/jquery.min.js"></script>
+    <script src="components/underscore/underscore-min.js"></script>
+    <script src="components/backbone/backbone-min.js"></script>
+
     <!-- include source files here... -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/views/application-view.js"></script>
 
     <!-- include spec files here... -->
     <script src="spec/test.js"></script>
